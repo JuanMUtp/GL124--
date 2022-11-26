@@ -1,0 +1,211 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(240, 244, 246);
+    margin-top: 75px;
+}
+
+header{
+    background-color: rgb(61, 98, 112);
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    border-bottom: 2px;
+    padding-bottom: 15px;
+    z-index: 100;
+}
+
+.logo{
+    width: 95px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-item-l{
+    float: left;
+    width: 80px;
+    height: 70px;
+    border: 0ch;
+    background-color: aliceblue;
+
+}
+
+.header-item-m{
+    float: right;
+    border-color: black;
+}
+
+.icons{
+    height: 25px;
+    width: 25px;
+    border: 0px;
+    margin: 0%;
+
+    border-color: rgb(188, 191, 192);
+}
+
+.barra{
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.barra-items{
+    float: left;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border: 3px;
+    margin-right: 5px;
+    border-radius: 7px;
+    
+}
+
+.redes{
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 40px;
+    border: 3px;
+    margin-right: 5px;
+    border-radius: 7px;
+}
+
+.icons:hover{
+    background-color: rgb(161, 175, 187);
+}
+
+.barra-items:hover{
+    background-color: rgb(161, 175, 187);
+}
+.redes:hover{
+    background-color: rgb(161, 175, 187);
+}
+
+.barra-items a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px; 
+}
+.redes a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px; 
+}
+
+.barra-items a:hover{
+    text-decoration: none;
+}
+
+.redes a:hover{
+    text-decoration: none;
+}
+
+#instruccion{
+position:absolute;
+text-align: center;
+}
+
+#instruccion-div{
+ background-color: aliceblue;
+}
+
+#instruccion-h1{
+    text-align: center;
+}
+.juegos{
+    background-color: rgb(61, 98, 112);;
+    display: flex;
+}
+
+.juegos-size:hover{
+    background-color: aliceblue;
+}
+
+.juegos-conten{
+    flex-wrap: wrap;
+}
+
+.juegos-img{
+    height: 150px;
+    width: 150px;
+}
+
+.juegos-size{
+    background-color: rgb(161, 175, 187);
+    padding: 15px;
+    margin: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.juegos-titulo{
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.ajuegos-fecha{
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.juegos-descrip{
+    font-size: 13px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    
+    position: relative;
+    text-align: center;
+}
+
+.fondo {
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    opacity: 3;
+}
+
+.centreado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+}
+
+footer{
+    padding-bottom: 25px;
+    background-color: rgb(61, 98, 112);
+}
+.footer-logos{
+    display: flex;
+    justify-content: space-between;
+}
+.header-item-redes{
+    list-style-type: none;
+}
+.footer1{
+    list-style-type: none;
+    position: center;
+}
+.footer-img{
+    height: 150px;
+    width: 150px;
+}
